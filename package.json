@@ -1,0 +1,25 @@
+{
+  "name": "crossfit-api",
+  "version": "1.0.0",
+  "description": "Corssfit fitness api",
+  "main": "crossFit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/crossFit.js"
+  },
+  "keywords": [],
+  "author": "abdul-razak",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.4.0",
+    "uuid": "^8.3.2"
+  }
+}
