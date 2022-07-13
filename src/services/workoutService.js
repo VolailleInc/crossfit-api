@@ -21,7 +21,7 @@ const getOneWorkout = (workoutId) => {
   }
 };
 
-const createWorkout = (newWorkout) => {
+const createNewWorkout = (newWorkout) => {
   // **ADD**
   const workoutToCreate = {
     ...newWorkout,
@@ -58,7 +58,7 @@ const deleteOneWorkout = (workoutId) => {
 module.exports = {
   getAllWorkouts,
   getOneWorkout,
-  createWorkout,
+  createNewWorkout,
   updateOneWorkout,
   deleteOneWorkout,
 };

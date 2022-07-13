@@ -48,7 +48,6 @@ const updateOneWorkout = (workoutId, changes) => {
   try {
     const itAlreadyExist =
       DB.workouts.findIndex((workout) => workout.name === changes.name) > -1;
-
     if (itAlreadyExist) {
       throw {
         status: 400,
